@@ -1,8 +1,9 @@
 import Clock from "../components/Clock";
 
+
 const HomePage = () => (
     <>
-    <Clock></Clock>
+    <Clock/>
     <h1>Hello, welcome to my blog!</h1>
     <p>
         Welcome to my blog! Proin congue
