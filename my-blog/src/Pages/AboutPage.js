@@ -1,10 +1,12 @@
 import Clock from "../components/Clock";
+
 const HomePage = () => (
     <>
     <Clock/>
+    <img src="/img/me.jpg" width="200" height="300" alt="" style={{ alignSelf: 'center'}}/>
     <h1>About me!</h1>
     <p>
-        Welcome to my blog! Proin congue
+        Hello my name is Greg! Proin congue
         ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
         Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
         non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
@@ -27,6 +29,7 @@ const HomePage = () => (
         interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
         consequat quam. Vivamus accumsan dui in facilisis aliquet.,
     </p>
+    
     </>
 );
 

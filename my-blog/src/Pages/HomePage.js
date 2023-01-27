@@ -1,6 +1,5 @@
 import Clock from "../components/Clock";
 
-
 const HomePage = () => (
     <>
     <Clock/>
